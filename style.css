@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #ff4081;
+  color: #1b98ff;
   text-decoration-style: wavy;
 }
 
@@ -66,13 +66,17 @@ border: 1px solid gray;
 }
 
 
-.left {
+.right {
 grid-column: 6 / 12;
 }
 
- 
+section.bottom {
+grid-column: 6 / 12;
+margin-bottom: 100px;
+}
+
 .middle {
-grid-column: 4 / 10;
+grid-column: 5/9;
 align-items: center;
 text-align: center;
 }
